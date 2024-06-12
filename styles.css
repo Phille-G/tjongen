@@ -16,10 +16,10 @@ header {
     position: relative;
 }
 
-header .logo {
+.logo {
     width: 100px;
     height: auto;
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 10px;
 }
