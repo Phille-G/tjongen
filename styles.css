@@ -57,12 +57,20 @@ h2 {
 }
 
 .episodepicture {
-    width: 340px;
+    width: auto;
     height: auto;
+    justify-content: center;
     /* position: absolute; */
     border-radius: 8px;
     /* top: 10px; */
     right: 60px;
+
+}
+
+@media (max-width: 530px) {
+    .episodepicture {
+        width: 320px;
+    }
 }
 
 .episode {
