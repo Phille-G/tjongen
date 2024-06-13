@@ -64,13 +64,14 @@ h2 {
     /* position: absolute; */
     border-radius: 8px;
     /* top: 10px; */
-    right: 60px;
+    /* right: 60px; */
 
 }
 
-@media (max-width: 530px) {
+@media (max-width: 650px) {
     .episodepicture {
-        width: 320px;
+        width: 75vw;
+        margin: 10px;
     }
 }
 
