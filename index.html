@@ -1,91 +1,188 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tjong i medaljongen - Podcast</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tjong i medaljongen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500&display=swap"
+        rel="stylesheet">
 </head>
+
+
+
 <body>
+    <!-- Header  -->
     <header>
-        
-        <h1>Tjong i medaljongen</h1>
-        <p>- Det är inte bara att ställa ut skorna</p>
+        <!-- <a href="" class="logo"><img src="logo.png" alt="logo"></a> -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#home">Hem</a></li>
+            <li><a href="#avsnitt">Avsnitt</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+        </ul>
+
+
+
     </header>
-    <nav>
-        <a href="#home">Hem</a>
-        <a href="#episodes">Avsnitt</a>
-        <a href="#about">Om oss</a>
-        <a href="#contact">Kontakt</a>
-    </nav>
-    <div class="content">
-        <section id="home">
-            <h2>Välkommen till Tjong i medaljongen!</h2>
-            <img src="logotyp.png" alt="Tjong i medaljongen Logotyp" class="logo">
-            <p>Vilka spelare har auran att sluta i turkiska ligan? Vilka lag skäms man lite över att man hejar på? Vad har vi egentligen på Pierre Gallo?.</p>
-        </section>
-        <section id="episodes">
-            <h2>Senaste avsnitt</h2>
-            <div class="episode">
-                
-                <h3>Avsnitt 1: Mästerskapsminnen </h3>
-            <div>
-                <img src="Episode1.png" alt="Avsnitt 1 bild" class="episodepicture">
+
+    <!-- Header  -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h3>Välkommen till</h3>
+                <h1>Tjong i medaljongen</h1>
+                <h5>Med <span>Philip Gustafsson</span> och <span>Fredrik Tärnström</span></h5>
+                <p>En fotbollspod för dig <br> som bara vill ha det gött</p><br>
+                <p>"Lars-Tommy är det bästa som hänt svensk fotboll"</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <a href="#" class="btn">Om oss</a>
             </div>
-                <p>I premiäravsnittet listar vi våra bästa mästerskapsminnen.</p>
+            <div class="home-img">
+                <img src="Start.jpeg" alt="porttrait">
+            </div>
+
+    </section>
+
+    <!-- Header 
+    <section class="sub-service">
+        <div class="items">
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img/target.svg" alt="darts">
+                </div>
+                <h3>Pixel Perfect</h3>
+                <p>I always try to make every webpage responsive and adaptive
+                </p>
+            </div>
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img/brush.svg" alt="brush">
+                </div>
+                <h3>High Quality</h3>
+                <p>With common HTML, CSS and javascript you can reach very far, as far as you need to reach.
+                </p>
+            </div>
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img/energy.svg" alt="lamp">
+                </div>
+                <h3>Awsome Idea</h3>
+                <p>Some techniques might seem old, but knowledgde thats has been used many times before is always the best one
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/vector1.png" alt="vectorexample">
+        </div>
+
+        <div class="about-text">
+            <h3>I'm a vector lover</h3>
+            <h2>I can design any kind of vector</h2>
+            <p>Hello there! My passion as a web designer is all about finding new shapes.</p>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+
+    </section>
+
+    <!-- portfolio -->
+
+    <section class="portfolio" id="avsnitt">
+        <div class="heading">
+            <h3>Avsnitt</h3>
+            <h2>Du har väl lyssnat på det senaste?</h2>
+            <p>Häng på<br> nu åker vi</p>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="col">
+                <img src="img/Episode1.png" alt="work1">
                 <audio controls>
                     <source src="Episode1.mp3" type="audio/mpeg">
                     Din webbläsare stödjer inte uppspelning av ljudfiler.
                 </audio>
-            </div>
-            <!-- Fler avsnitt kan läggas till här -->
-            <div class="episode">
-                <h3>Avsnitt 2: Löften som aldrig lyfte </h3>
-                <div>
-                    <img src="Episode2.png" alt="Avsnitt 2 bild" class="episodepicture">
+                <div class="layer">
+                    <h3>Mästerskapsminnen</h3>
                 </div>
-                <p>Vi listar våra löften som aldrig lyfte.</p>
+            </div>
+
+            <div class="col">
+                <img src="img/Episode2.png" alt="work2">
                 <audio controls>
                     <source src="Episode2.mp3" type="audio/mpeg">
                     Din webbläsare stödjer inte uppspelning av ljudfiler.
                 </audio>
-            </div>
-            <div class="episode">
-                <h3>Avsnitt 3: Korta spelare </h3>
-                <div>
-                    <img src="Episode3.png" alt="Avsnitt 3 bild" class="episodepicture">
+                <div class="layer">
+                    <h3>Löften som aldrig lyfte</h3>
                 </div>
-                <p>Spelare kortare än Messi.</p>
+            </div>
+
+
+            <div class="col">
+                <img src="img/Episode3.png" alt="work3">
                 <audio controls>
                     <source src="Episode3.mp3" type="audio/mpeg">
                     Din webbläsare stödjer inte uppspelning av ljudfiler.
                 </audio>
-            </div>
-            <div class="episode">
-                <h3>Avsnitt 4: Klassiska intervjuer </h3>
-                <div>
-                    <img src="Episode4.png" alt="Avsnitt 3 bild" class="episodepicture">
+                <div class="layer">
+                    <h3>Korta spelare</h3>
                 </div>
-                <p>Intervjuer vi minns.</p>
+            </div>
+
+
+            <div class="col">
+                <img src="img/Episode4.png" alt="work4">
                 <audio controls>
                     <source src="Episode4.mp3" type="audio/mpeg">
                     Din webbläsare stödjer inte uppspelning av ljudfiler.
                 </audio>
+                <div class="layer">
+                    <h3>Klassiska intervjuer</h3>
+                </div>
             </div>
-        </section>
-        <section id="about">
-            <h2>Om oss</h2>
-            <p>Tjong i medaljongen är en podcast skapad av Philip Gustafsson och Fredrik Tärnström. Vi försöker ständigt hitta nya vinklar på det outsinliga ämnet fotboll.</p>
-        </section>
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <p>Har du frågor eller feedback? Kontakta oss gärna på <a href="mailto:info@tjongimedaljongen.se">info@tjongimedaljongen.se</a>
 
-            </p>
-        </section>
+        </div>
+
+    <!-- </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="center">
+                <h3>Let's get in touch</h3>
+                <p>Don't like forms n' shit, mail me!</p>
+            </div>
+            <div class="action">
+                <form>
+                    <input type="email" name="email" placeholder="Enter Your email" required>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <div class="ends">
+        <p>This page is made with love by Philip Gustafsson © 2024</p>
     </div>
-    <footer>
-        <p>&copy; 2024 Tjong i medaljongen. Alla rättigheter förbehållna.</p>
-    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Link to javascript -->
+    <script src="script.js"></script>
+
 </body>
+
 </html>
