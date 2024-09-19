@@ -8,6 +8,13 @@
     scroll-behavior: smooth;
 }
 
+h1 img {
+    width: auto; /* För att hålla proportionerna */
+    max-width: 200%; /* För att se till att bilden inte blir för stor */
+    height: 3em; /* Justera höjden så den matchar textstorleken */
+    vertical-align: middle; /* För att centrera bilden lodrätt */
+}
+
 :root {
     --bg-color: #ffffff;
     --text-color: #000f;
